@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Home'
+pygmentsStyle = "dracula"
 
 [permalinks]
   blog = "/:filename/"
