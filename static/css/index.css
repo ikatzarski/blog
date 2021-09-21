@@ -1,3 +1,19 @@
+a {
+  font-size: 1.1875rem;
+}
+
+a:link,
+a:visited {
+  color: #cd5c5c;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #5c95cd;
+  text-decoration: underline;
+}
+
 body {
   background-color: #363538;
   color: #f6f6f6;
