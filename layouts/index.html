@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    {{ $css := "css/index.css" | relURL }}
-    <link rel="stylesheet" href="{{ $css }}" />
-    <title>{{ .Title }}</title>
-  </head>
-  <body>
-    <div class="container">
-      <main id="main">
-        <div>
-          <h1 class="title">{{ .Title }}</h1>
-          <p>{{ .Site.Params.homeText | markdownify }}</p>
-        </div>
-      </main>
-    </div>
-  </body>
-</html>
+{{ define "main" }}
+
+<div>
+  <h1 class="title">{{ .Title }}</h1>
+  <p>{{ .Site.Params.homeText | markdownify }}</p>
+</div>
+
+{{ end }}
