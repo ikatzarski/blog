@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Home'
+
+[params]
+  homeText = "This will be the Home page."
