@@ -2,5 +2,8 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Home'
 
+[permalinks]
+  blog = "/:filename/"
+
 [params]
   homeText = "This will be the Home page."
