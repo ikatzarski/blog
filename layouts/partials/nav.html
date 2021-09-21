@@ -1,0 +1,7 @@
+<div id="nav-container">
+  <nav id="nav">
+    {{ range .Site.Menus.main }} {{ $text := print .Name }}
+    <a id="nav-item" href="{{ .URL }}">{{ $text }}</a>
+    {{ end }}
+  </nav>
+</div>

@@ -3,6 +3,7 @@
   {{ partial "head.html" . }}
   <body>
     <div class="container">
+      {{ partial "nav.html" . }}
       <main id="main">{{ block "main" . }}{{ end }}</main>
     </div>
   </body>

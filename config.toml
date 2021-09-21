@@ -6,5 +6,15 @@ pygmentsStyle = "dracula"
 [permalinks]
   blog = "/:filename/"
 
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
 [params]
   homeText = "This will be the Home page."

@@ -26,6 +26,19 @@ body {
   padding: 2.625rem 1.3125rem;
 }
 
+#nav-container {
+  border-bottom: 1px solid #cd5c5c;
+}
+
+#nav {
+  text-align: center;
+}
+
+#nav-item {
+  display: inline-block;
+  margin: 0.75rem;
+}
+
 pre {
   background-color: #363538 !important;
 }
