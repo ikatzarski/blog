@@ -18,4 +18,3 @@ pygmentsStyle = "dracula"
 
 [params]
   dateFormat = "Jan 2, 2006"
-  homeText = "This will be the Home page."
