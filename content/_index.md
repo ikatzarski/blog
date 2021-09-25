@@ -1,5 +1,5 @@
 ---
-title: Home
+title: ikatzarski's Blog
 ---
 
 Hi! My name is Ivan. Welcome to my blog about Software Engineering, DevOps, tech in general, and who knows what else.

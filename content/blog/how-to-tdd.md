@@ -1,8 +1,9 @@
 ---
-title: "How to Tdd"
+title: "How to TDD"
 date: 2021-09-25T12:39:13+01:00
 tags: ["software design", "tdd"]
 draft: false
+description: "A walkthrough of inside-out TDD with the FizzBuzz kata."
 ---
 
 TDD is a process that helps us develop software in short cycles. The idea is to write tests, create the implementation as fast as possible, and improve it. This process follows the following three stages:
