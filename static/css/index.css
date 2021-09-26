@@ -4,18 +4,18 @@ a {
 
 a:link,
 a:visited {
-  color: #cd5c5c;
+  color: #ff652f;
   text-decoration: none;
 }
 
 a:hover,
 a:active {
-  color: #5c95cd;
+  color: #ffe400;
   text-decoration: underline;
 }
 
 body {
-  background-color: #363538;
+  background-color: #272727;
   color: #f6f6f6;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,11 +27,11 @@ body {
 }
 
 h2 {
-  color: #5ccd95;
+  color: #14a76c;
 }
 
 #nav-container {
-  border-bottom: 1px solid #cd5c5c;
+  border-bottom: 1px solid #ff652f;
 }
 
 #nav {
@@ -44,14 +44,18 @@ h2 {
 }
 
 #not-found {
-  color: #cd5c5c;
+  color: #ff652f;
   text-align: center;
 }
 
 pre {
-  background-color: #363538 !important;
+  background-color: #272727 !important;
+}
+
+::selection {
+  background-color: #747474;
 }
 
 .title {
-  color: #5ccd95;
+  color: #14a76c;
 }
