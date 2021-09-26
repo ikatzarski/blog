@@ -38,7 +38,7 @@ h2 {
   text-align: center;
 }
 
-#nav-item {
+.nav-item {
   display: inline-block;
   margin: 0.75rem;
 }

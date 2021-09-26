@@ -1,7 +1,10 @@
 <div id="nav-container">
   <nav id="nav">
-    {{ range .Site.Menus.main }} {{ $text := print .Name }}
-    <a id="nav-item" href="{{ .URL }}">{{ $text }}</a>
+    {{ $index := 0 }}
+    {{ range .Site.Menus.main }}
+    {{ $text := print .Name }}
+    {{ $index = add $index 1 }}
+    <a class="nav-item" id="nav-item-{{ $index }}" href="{{ .URL }}">{{ $text }}</a>
     {{ end }}
   </nav>
 </div>

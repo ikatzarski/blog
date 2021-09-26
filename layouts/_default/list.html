@@ -1,9 +1,11 @@
 {{ define "main" }}
 
 <h1 class="title">{{ .Title }}</h1>
+{{ $index := 0 }}
 {{ range .Pages.ByPublishDate.Reverse }}
+{{ $index = add $index 1 }}
 <p>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <a href="{{ .RelPermalink }}" id="list-item-{{ $index }}">{{ .Title }}</a>
   <br />
   {{ partial "date.html" . }}
 </p>
