@@ -5,7 +5,7 @@ date: 2024-05-08T19:23:00+01:00
 
 ## Summary
 
-I have been working at Codurance as a consultant since 2019. I had the opportunity to work with many bright people and learn from them as a developer but most of the time as a Platform Engineer and a Team Lead.
+I have spent most of my career as a Platform Engineer and a good portion of it as a Team Lead. I like writing code and I love tinkering with new tools. I also enjoy designing new systems, re-designing old ones, and automating everything throughout the process. I am really good at explaining difficult concepts to almost anyone. I find a lot of satisfaction in training people, sharing my knowledge, learning from people and in general working with teams.
 
 ## Certifications
 
@@ -15,23 +15,35 @@ I have been working at Codurance as a consultant since 2019. I had the opportuni
 
 ### Codurance (2019 - Now)
 
+#### - Artlogic (2024 - Now) - Platform Engineer / Team Lead
+
+- Transferred all manually created GCP infrastructure in Terraform.
+- Set up configuration management with Ansible to reduce configuration drift.
+- Set up CI/CD with GitLab pipelines.
+- Created infrastructure diagrams improving stakeholder communication and onboarding of engineers.
+- Introduced ADRs to document the decision process behind the infrastructure choices.
+- Improved and introduced Agile ceremonies to increase team efficiency and collaboration.
+- Key to making future infrastructure and team responsibilities decisions.
+- Trained Platform engineers on best CI/CD, IaC and general DevOps practices and technologies.
+- Supported the onboarding of the new Head of Platform.
+
 #### - Relation Therapeutics (2023 - 2024 / 1 year) - Platform Engineer / Team Lead
 
 - Created and deployed an entire Kubernetes/Kubeflow hybrid platform across AWS, GCP and a customer-managed Data Center infrastructure allowing the client to run LLM-based workloads.
-- Helped design the platform to allow Machine Learning engineers and scientists to run their workloads on the infrastructure of their choice.
-- Helped design the platform to allow engineers to use it even when parts of the infrastructure went down.
-- Helped design the hybrid platform to scale from 0 minimising costs and maximising the use of the customer-managed infrastructure.
+- Designed the platform to allow Machine Learning engineers and scientists to run their workloads on the infrastructure of their choice.
+- Designed the platform to allow engineers to use it even when parts of the infrastructure were inaccessible.
+- Designed the hybrid platform to scale from 0 minimising costs and maximising the use of the customer-managed infrastructure.
 - Deployed the entire infrastructure with custom-made Terraform modules through GitHub Actions.
 - Introduced configuration management with SSM and Ansible for the on-premise nodes.
 - Implemented monitoring and observability with OpenSearch, Prometheus and Grafana.
-- Implemented Grafana alarms to highlight key infrastructure components going down.
+- Implemented Grafana alarms for failing infrastructure components.
 - Automated the creation of new AMIs with Packer.
 - Trained the Relation Therapeutics engineers to maintain and further develop the newly created platform.
-- Led most customer-facing meetings and was the main point of contact for the project.
+- Led the customer-facing meetings and was the main point of contact for the project.
 
 #### - WebBeds (2023 / 3 months) - Platform Engineer / Team Lead
 
-- Worked on creating and deploying an authentication system with Keycloak.
+- Created and deployed an authentication system with Keycloak.
 - Created new Keycloak Service Provider Interfaces to alter the authentication process of Keycloak to match the needs of different services.
 - Deployed Keycloak and the Keycloak Service Provider Interfaces with ArgoCD.
 - Automated the Keycloak configuration and configuration deployment.
@@ -48,10 +60,11 @@ I have been working at Codurance as a consultant since 2019. I had the opportuni
 
 #### - Roche (2021 - 2022 / 1 year 6 months) - Platform Engineer / Team Lead
 
-- Helped create a platform for automatically deploying and monitoring multiple environments and microservices that is now used in the entirety of Roche.
+- Created a platform for automatically deploying and monitoring multiple environments and microservices. The platform is now used in the entirety of Roche.
 - Created GitLab pipelines to package and deploy SpringBoot and React services.
 - Designed and implemented an e2e testing process using a GitLab pipeline.
-- Deployed EKS and multiple other AWS services with Terraform. Designed the entire platform infrastructure and deployed it with Terraform.
+- Deployed EKS and multiple other AWS services with Terraform.
+- Designed the entire platform infrastructure and deployed it with Terraform.
 - Configured and maintained ArgoCD to deploy services to multiple environments.
 - Implemented monitoring and observability for the EKS cluster with OpenSearch, Prometheus and Grafana.
 - Led the DevOps Community of Practice meetings as well as all demonstrations performed to the client.
