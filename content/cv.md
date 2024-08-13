@@ -7,6 +7,19 @@ date: 2024-05-08T19:23:00+01:00
 
 I have spent most of my career as a Platform Engineer and a good portion of it as a Team Lead. I like writing code and I love tinkering with new tools. I also enjoy designing new systems, re-designing old ones, and automating everything throughout the process. I am really good at explaining difficult concepts to almost anyone. I find a lot of satisfaction in training people, sharing my knowledge, learning from people and in general working with teams.
 
+## Key Skills
+
+- Cloud Platforms: AWS, GCP, Azure
+- Infrastructure as Code (IaC): Terraform, Ansible
+- Configuration Management: Ansible, SSM
+- Server Templating Tools: Packer, Vagrant
+- Container Orchestration: Kubernetes, Kubeflow, EKS
+- CI/CD: GitLab, GitHub Actions, Jenkins, ArgoCD
+- Monitoring and Observability: OpenSearch, Prometheus, Grafana
+- Programming Languages: Bash, Go, Java
+- Authentication Systems: Keycloak
+- Agile Methodologies: Scrum, XP
+
 ## Certifications
 
 - [Certified Kubernetes Administrator](https://www.credly.com/badges/c523ef44-d875-4af7-a23d-e86843996bf1/linked_in_profile)
