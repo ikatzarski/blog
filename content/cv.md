@@ -26,7 +26,7 @@ Experienced Platform Engineer and Team Lead with expertise in coding, system des
 
 ## Experience
 
-### Codurance (2019 - Now)
+### Codurance (2019 - Now) - Senior Platform Engineer / Team Lead
 
 #### - Artlogic (2024 - Now) - Platform Engineer / Team Lead
 
@@ -92,7 +92,7 @@ Experienced Platform Engineer and Team Lead with expertise in coding, system des
 - Completed intensive training in TDD, DDD, XP, Agile, Platform, and Software Engineering.
 - Led a project from requirements gathering to development and CI/CD.
 
-### Yambay (2016 - 2019 / 3 years) - Project Engineer
+### Yambay (2016 - 2019 / 3 years) - Senior Project Engineer
 
 - Delivered projects, gathered requirements, installed software, and maintained infrastructure.
 - Trained engineers in-house and on client sites.
