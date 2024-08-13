@@ -107,7 +107,7 @@ Experienced Platform Engineer and Team Lead with expertise in coding, system des
 
 ### University of Glasgow (2014 - 2015)
 
-- MSc, Software Development
+- MSc Software Development
 
 ### University of Strathclyde (2010 - 2014)
 
